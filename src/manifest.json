@@ -1,0 +1,25 @@
+{
+  "name": "4 Paws'itive Education",
+  "short_name": "4Paws'edu",
+  "description": "Éducatrice comportementaliste canin à Rennes - Éducation positive",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#FF7A5C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "127x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "pets", "services"],
+  "lang": "fr",
+  "dir": "ltr",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "4pawsedu-website",
+  "version": "1.0.0",
+  "description": "Site web pour 4 Paws'itive Education - Éducatrice comportementaliste canin",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src --port=3000 --open=/index.html",
+    "dev": "live-server src --port=3000 --open=/index.html",
+    "serve": "http-server src -p 3000 -o"
+  },
+  "keywords": [
+    "website",
+    "education-canine",
+    "static-site"
+  ],
+  "author": "4 Paws'itive Education",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
+

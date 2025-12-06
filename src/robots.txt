@@ -1,0 +1,15 @@
+# robots.txt pour 4 Paws'itive Education
+
+User-agent: *
+Allow: /
+
+# Fichiers à ne pas indexer
+Disallow: /styles.css
+Disallow: /script.js
+
+# Sitemap
+Sitemap: https://www.4pawsedu.com/sitemap.xml
+
+# Délai entre les requêtes (en secondes)
+Crawl-delay: 1
+
