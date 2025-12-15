@@ -302,26 +302,26 @@ header {
   .flyer-subtitle-strip {
     padding: 1.2rem 1rem 0.8rem;
   }
-  
+
   /* Social CTA responsive */
   .hero-social-cta {
     margin-top: 2rem;
   }
-  
+
   .social-cta-text {
     font-size: 0.95rem;
     margin-bottom: 0.8rem;
   }
-  
+
   .social-links {
     gap: 0.6rem;
   }
-  
+
   .social-btn {
     padding: 0.6rem 1rem;
     font-size: 0.85rem;
   }
-  
+
   .social-icon {
     font-size: 1.2rem;
   }
@@ -366,7 +366,7 @@ header {
 }
 
 .social-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -396,7 +396,7 @@ header {
 
 /* Instagram Button */
 .social-btn.instagram {
-  background: linear-gradient(135deg, #833AB4, #FD1D1D, #FCB045);
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
   color: var(--white);
 }
 
@@ -407,7 +407,7 @@ header {
 
 /* Facebook Button */
 .social-btn.facebook {
-  background: linear-gradient(135deg, #1877F2, #4267B2);
+  background: linear-gradient(135deg, #1877f2, #4267b2);
   color: var(--white);
 }
 
@@ -515,13 +515,14 @@ header {
   font-size: clamp(2.5rem, 8vw, 4rem);
   color: var(--white);
   /* Effet contour orange épais simulé */
-  text-shadow: 3px 3px 0 #e65100, -2px -2px 0 #e65100, 2px -2px 0 #e65100,
-    -2px 2px 0 #e65100, 2px 2px 0 #e65100, 5px 5px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 6px 6px 0 #e65100, -3px -3px 0 #e65100, 3px -3px 0 #e65100,
+    -3px 3px 0 #e65100, 4px 4px 0 #e65100, 6px 6px 5px rgba(0, 0, 0, 0.2);
   line-height: 0.85;
   margin: 0;
   text-transform: uppercase;
   font-weight: 900;
-  -webkit-text-stroke: 2px #e65100;
+  -webkit-text-stroke: 6px #e65100;
+  paint-order: stroke fill;
 }
 
 /* Decorative shapes */
@@ -1283,6 +1284,14 @@ footer {
     font-size: 1.3rem;
   }
 
+  .hero-highlight-text h2 {
+    font-size: clamp(2rem, 10vw, 3rem);
+    -webkit-text-stroke: 1px #e65100;
+    text-shadow: 6px 6px 0 #e65100, -3px -3px 0 #e65100, 3px -3px 0 #e65100,
+      -3px 3px 0 #e65100, 4px 4px 0 #e65100, 6px 6px 5px rgba(0, 0, 0, 0.2);
+    line-height: 1;
+  }
+
   .paw-print,
   .heart,
   .star {
@@ -1395,14 +1404,14 @@ footer {
   .contact-form {
     padding: 1.5rem;
   }
-  
+
   /* Social CTA - Très petits écrans */
   .social-links {
     gap: 0.5rem;
     flex-direction: row;
     justify-content: center;
   }
-  
+
   .social-btn {
     padding: 0.5rem 0.8rem;
     font-size: 0.8rem;
@@ -1410,11 +1419,11 @@ footer {
     max-width: 140px;
     justify-content: center;
   }
-  
+
   .social-icon {
     font-size: 1.1rem;
   }
-  
+
   .social-name {
     font-size: 0.8rem;
   }
